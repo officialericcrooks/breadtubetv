@@ -1,0 +1,13 @@
+{{ $slug := .Get "slug"}}
+{{ $url := printf "%s%s" "http://localhost:1337/channels?slug=" $slug }}
+{{ $resource := getJSON $url }}
+
+{{ range $resource }}
+  <h1>{{ .name }}</h1>
+  <p>{{ .description }}</p>
+  <img src="http://localhost:1337/{{ .image.url }}" alt="{{ .name }}"/>
+
+  <code>
+    {{ . }}
+  </code>
+{{ end }}

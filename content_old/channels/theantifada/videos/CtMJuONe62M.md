@@ -1,0 +1,19 @@
+---
+title: '*BONUS PREVIEW* -- All About ''Us'' w/ Leslie Lee III'
+date: "2019-12-10T18:13:41+08:00"
+type: video
+description: Massive spoiler alert on this one, baby! @leslieleeiii of your favorite
+  leftist culture podcast @strugglesesh joins the crew (in studio!) to talk about
+  Jordan Peele's sophomore offering, the blockbuster social-critique/horror film 'Us'.
+  Sean, Jamie and Andy offer their weird opinions on the deeper meaning of the film...
+  then Leslie, as always, schools everyone with his vast cinematic knowledge. Fun
+  and talking shit on Breitbart happens along the way! To access this and other bonuses,
+  along with our Discord server and other goodies, become a patron at www.patreon.com/theantifada
+  If you're foolish enough to not be a patron of Struggle Session, atone for your
+  sins at www.patreon.com/strugglesession
+publishdate: "2019-04-12T11:45:00.000Z"
+url: /theantifada/CtMJuONe62M/
+providers:
+  youtube:
+    id: CtMJuONe62M
+---

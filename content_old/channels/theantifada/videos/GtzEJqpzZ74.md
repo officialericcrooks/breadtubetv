@@ -1,0 +1,23 @@
+---
+title: 'Ep 51: The Housing Monster w/ Samuel Stein'
+date: "2019-12-10T18:13:42+08:00"
+type: video
+description: 'Samuel Stein, author of ''Capital City: Gentrification and the Real
+  Estate State'' from Verso Books, comes on the pod to explain why neoliberalism will
+  have us all living in pods if we don''t do something about the global housing crisis.
+  We discuss the rise of the FIRE sector. We demystify the concept of gentrification.
+  We isolate the fundamental contradictions of housing as a commodity. We unpack the
+  ways in which even the most well-meaning progressive politicians and planners are
+  utterly constrained by the system itself. And, as is our want, we take a profound
+  plunge into how workers have organized for the right to housing in the past and
+  how we might ultimately fight to slay the housing monster. Bonus on housing horror
+  stories and other ephemera with Sam later this week! Become a at patron at www.patreon.com/theantifada
+  Follow Samuel Stein: @SamuelBStein Read his great takedown of Hudson Yards: http://bit.ly/2JEGgAA
+  Buy the concise and fantastic ''Capital City'' - part of the Jacobin Series from
+  Verso: https://www.versobooks.com/books/2870-capital-city'
+publishdate: "2019-05-16T00:52:44.000Z"
+url: /theantifada/GtzEJqpzZ74/
+providers:
+  youtube:
+    id: GtzEJqpzZ74
+---
