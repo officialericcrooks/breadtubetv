@@ -1,0 +1,19 @@
+<li id="{{ .Slug }}" class="channel-item list-item">
+  <div class="channel">
+    <div class="channel-image">
+      <div class="channel-imageWrap">
+        <img src="{{ .Site.Params.AssetHost }}{{ .Params.Image }}" alt=" {{ .Title }}" />
+      </div>
+    </div>
+    <div class="channel-text">
+      <div class="channel-title">
+        <a class="channel-link" href="{{ .RelPermalink }}">
+          {{ .Title }}
+        </a>
+      </div>
+      <div class="channel-description">
+        {{ .Description | markdownify }}
+      </div>
+    </div>
+  </div>
+</li>

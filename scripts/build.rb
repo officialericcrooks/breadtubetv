@@ -24,6 +24,7 @@ results.each do |result|
   File.open(channel_page, 'r+') do |file|
     file.seek(-4, IO::SEEK_END)
     file.puts("title: |\n  #{ channel.name }")
+    file.puts("slug: #{ channel.slug }")
     file.puts("url: /#{ channel.slug }/")
     file.puts("date: #{ channel.created_at }")
     file.puts("description: |\n  #{ channel.description }")
@@ -33,7 +34,7 @@ results.each do |result|
 
   channel.contents.each do |content|
     content_slug = content.slug
-    content_path = "#{ channel_path }/contents/#{ content_slug }"
+    content_path = "#{ channel_path }/#{ content_slug }"
     content_folder = "content/#{ content_path }/"
 
     `hugo new --kind content "#{ content_path }"`
@@ -43,6 +44,7 @@ results.each do |result|
     File.open(content_page, 'r+') do |file|
       file.seek(-4, IO::SEEK_END)
       file.puts("title: |\n  #{ content.name }")
+      file.puts("slug: #{ content.slug }")
       file.puts("url: /#{ channel.slug }/#{ content.slug }/")
       file.puts("date: #{ channel.created_at }")
       file.puts("description: |\n  #{ content.description }")

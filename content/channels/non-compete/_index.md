@@ -2,6 +2,7 @@
 type: channel
 title: |
   Non-Compete
+slug: non-compete
 url: /non-compete/
 date: 2020-01-31T04:35:24.791Z
 description: |

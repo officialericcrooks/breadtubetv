@@ -2,6 +2,7 @@
 type: content
 title: |
   How Would Anarchism Actually Work In Real Life? (Part 1)
+slug: how-would-anarchism-actually-work-in-real-life-part-1
 url: /non-compete/how-would-anarchism-actually-work-in-real-life-part-1/
 date: 2020-01-31T04:35:24.791Z
 description: |
