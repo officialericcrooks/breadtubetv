@@ -3,8 +3,5 @@
   <h1 class="heading"><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h1>
   <div class="content">
     <p>{{ .Description | markdownify }}</p>
-    {{ with .Params.description_more }}
-      <p>{{ . | markdownify }}</p>
-    {{ end }}
   </div>
 </div>

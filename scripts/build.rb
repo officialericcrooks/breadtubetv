@@ -3,6 +3,8 @@ require 'open-uri'
 require 'ostruct'
 require 'psych'
 
+providers = JSON.parse open("http://localhost:1337/providers").read
+
 results = JSON.parse open("http://localhost:1337/channels").read
 
 class Hash
@@ -46,9 +48,16 @@ results.each do |result|
       file.puts("title: |\n  #{ content.name }")
       file.puts("slug: #{ content.slug }")
       file.puts("url: /#{ channel.slug }/#{ content.slug }/")
-      file.puts("date: #{ channel.created_at }")
+      file.puts("date: #{ channel.published_at }")
       file.puts("description: |\n  #{ content.description }")
       file.puts("image: #{ content.image.url }")
+
+      file.puts("sources:")
+      content.sources.each do |source|
+        provider = providers.find { |p| p['name'] == source.provider.name }
+        url = provider['urls'].find { |p| p['type'] == "content" }
+        file.puts("  #{ source.provider.name}: #{ url['pattern'].gsub('{{slug}}', source.slug) }")
+      end
       file.puts("---")
     end
   end

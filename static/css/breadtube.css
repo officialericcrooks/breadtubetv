@@ -427,6 +427,11 @@ button, select, input, textarea { font-family: inherit; }
   }
 }
 
+.channel-breadcrumb {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
 .channel-image,
 .channel-video .channel-image {
   background: #fff;

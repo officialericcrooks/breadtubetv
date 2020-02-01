@@ -1,3 +1,7 @@
 {{ define "main" }}
   {{ partial "content/heading" . }}
+
+  {{ range .Params.Sources }}
+    {{ partial "content/embed" . }}
+  {{ end }}
 {{ end }}
