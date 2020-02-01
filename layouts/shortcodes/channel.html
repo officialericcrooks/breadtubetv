@@ -1,0 +1,8 @@
+{{ $slug := string (.Get "slug") }}
+{{ $path := printf "channels/%s" $slug }}
+
+{{ with $.Site.GetPage $path }}
+  <ul class="list plain-list">
+    {{ partial "channel/card" . }}
+  </ul>
+{{ end }}

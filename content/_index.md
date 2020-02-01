@@ -3,4 +3,4 @@ title: BreadTube.tv
 type: index
 ---
 
-{{< creator slug="noncompete" >}}
+{{< channel slug="non-compete" >}}
