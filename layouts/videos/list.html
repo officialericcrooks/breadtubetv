@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{ range where .Site.Pages ".Type" "content" }}
+    <ul class="list plain-list">
+      {{ partial "channel/card" . }}
+    </ul>
+  {{ end }}
+{{ end }}

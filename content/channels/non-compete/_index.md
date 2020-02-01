@@ -1,5 +1,8 @@
 ---
 type: channel
+menu:
+  main:
+    parent: Channels
 title: |
   Non-Compete
 slug: non-compete

@@ -1,13 +1,9 @@
 {{ define "main" }}
   {{ partial "channel/heading" . }}
 
-  {{ $slug := string (.Param "slug") }}
-  {{ $path := printf "channels/%s/" $slug }}
-
   {{ range where .Pages ".Type" "content" }}
     <ul class="list plain-list">
       {{ partial "content/card" . }}
     </ul>
   {{ end }}
-
 {{ end }}
