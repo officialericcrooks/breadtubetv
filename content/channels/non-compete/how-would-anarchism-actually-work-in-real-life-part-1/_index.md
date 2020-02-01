@@ -2,7 +2,7 @@
 type: content
 menu:
   main:
-    parent: Videos
+    parent: Contents
 title: |
   How Would Anarchism Actually Work In Real Life? (Part 1)
 slug: how-would-anarchism-actually-work-in-real-life-part-1

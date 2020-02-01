@@ -2,5 +2,5 @@
 type: content
 menu:
   main:
-    parent: Videos
+    parent: Contents
 ---

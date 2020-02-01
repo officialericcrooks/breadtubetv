@@ -5,7 +5,7 @@ require 'psych'
 
 providers = JSON.parse open("http://localhost:1337/providers").read
 
-results = JSON.parse open("http://localhost:1337/channels").read
+channels = JSON.parse open("http://localhost:1337/channels").read
 
 class Hash
   def to_ostruct
@@ -13,7 +13,7 @@ class Hash
   end
 end
 
-results.each do |result|
+channels.each do |result|
   channel = result.to_ostruct
   channel_path = "channels/#{ channel.slug }"
   channel_folder = "content/#{ channel_path }/"

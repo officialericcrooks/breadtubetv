@@ -31,8 +31,8 @@ url = "/channels/"
 weight = 3
 
 [[ menu.main ]]
-name = "Videos"
-url = "/videos/"
+name = "Contents"
+url = "/contents/"
 weight = 4
 
 [[ menu.footer ]]
