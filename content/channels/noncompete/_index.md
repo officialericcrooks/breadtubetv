@@ -4,9 +4,9 @@ menu:
   main:
     parent: Channels
 title: |
-  Non-Compete
-slug: non-compete
-url: /non-compete/
+  Non Compete
+slug: noncompete
+url: /noncompete/
 date: 2020-01-31T04:35:24.791Z
 description: |
   Non-Compete is a leftist blog and video series dedicates to the principles of intersectionalist liberation, anarchism, communism, and puppet shows.
