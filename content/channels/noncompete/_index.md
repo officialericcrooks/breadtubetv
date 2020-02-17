@@ -7,8 +7,7 @@ title: |
   Non Compete
 slug: noncompete
 url: /noncompete/
-date: 2020-01-31T04:35:24.791Z
+date: 2020-02-17T14:20:22.093Z
 description: |
-  Non-Compete is a leftist blog and video series dedicates to the principles of intersectionalist liberation, anarchism, communism, and puppet shows.
-image: /uploads/dc7c5aeb454f463aa4de5f26a499d4b7.jpg
+  Leftist, Anarchist, Communist, Feminist video essays.
 ---

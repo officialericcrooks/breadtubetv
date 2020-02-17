@@ -2,7 +2,7 @@
   <div class="channel">
     <div class="channel-image">
       <div class="channel-imageWrap">
-        <img src="{{ .Site.Params.AssetHost }}{{ .Params.Image }}" alt=" {{ .Title }}" />
+        <img src="{{ if .Params.Image }}{{ .Site.Params.AssetHost }}{{ .Params.Image }}{{ else }}/img/channels/placeholder.png{{ end }}" />
       </div>
     </div>
     <div class="channel-text">

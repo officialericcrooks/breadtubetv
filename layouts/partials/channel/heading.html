@@ -1,6 +1,10 @@
 <div class="heading-wrap" style="overflow: hidden">
-  <img src="{{ .Site.Params.AssetHost }}{{ .Params.Image }}" class="channel-image heading-image" alt=" {{ .Title }}" />
-  <h1 class="heading"><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></h1>
+  <img src="{{ if .Params.Image }}{{ .Site.Params.AssetHost }}{{ .Params.Image }}{{ else }}/img/channels/placeholder.png{{ end }}" class="channel-image heading-image" alt=" {{ .Title }}" />
+
+  <h1 class="heading">
+    <a href="{{ .Page.RelPermalink }}">{{ .Title }}</a>
+  </h1>
+
   <div class="content">
     <p>{{ .Description | markdownify }}</p>
   </div>

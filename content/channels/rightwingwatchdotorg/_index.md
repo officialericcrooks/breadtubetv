@@ -1,0 +1,13 @@
+---
+type: channel
+menu:
+  main:
+    parent: Channels
+title: |
+  RightWingWatchdotorg
+slug: rightwingwatchdotorg
+url: /rightwingwatchdotorg/
+date: 2020-02-17T14:20:23.767Z
+description: |
+  People For the American Way's Right Wing Watch is dedicated to monitoring and reporting on the activities of right-wing political organizations, in order to expose the agenda of the extreme Right. We hope that by shedding light on the activities of right-wing organizations, we can expose the risks that their extreme and intolerant agendas present to our country.
+---
