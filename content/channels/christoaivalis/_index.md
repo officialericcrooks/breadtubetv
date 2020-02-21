@@ -7,7 +7,8 @@ title: |
   Christo Aivalis
 slug: christoaivalis
 url: /christoaivalis/
-date: 2020-02-17T14:20:17.966Z
+date: 2020-02-21T09:51:05.468Z
 description: |
   Commentator, historian, and writer Christo Aivalis discussing all matters that interest him in regards to left politics, history, and culture.
+image: /uploads/1faacbdc510342648da166683dae967a.jpg
 ---

@@ -37,7 +37,7 @@ channels.each do |result|
     file.puts("url: /#{ channel.slug }/")
     file.puts("date: #{ channel.created_at }")
     file.puts("description: |\n  #{ channel.description }")
-    # file.puts("image: #{ channel.image.url }")
+    file.puts("image: #{ channel&.image&.url }")
     file.puts("---")
   end
 
