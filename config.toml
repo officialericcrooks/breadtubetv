@@ -9,6 +9,7 @@ targetBlank = true
 defaultTags = []
 channelTags = ["creators of color","small creators","anti-capitalism","philosophy","feminism","communism","democracy"]
 assetHost = "http://localhost:1337"
+ignoreFiles = [ "README*" ]
 
 [languages]
   [languages.en]

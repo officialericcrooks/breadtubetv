@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
+# No reason this couldn't be JavaScript
+# No reason this couldn't use the same breadtube code
+# No reason we couldn't have a breadtube npm package 
+
 require 'json'
 require 'open-uri'
 require 'ostruct'
