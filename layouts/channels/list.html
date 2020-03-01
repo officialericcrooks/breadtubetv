@@ -1,6 +1,7 @@
 {{ define "main" }}
   <ul class="list plain-list">
-    {{ range where .Site.Pages ".Type" "channel" }}
+    {{- $channels := (where .Site.Pages ".Type" "channel") -}}
+    {{ range sort $channels ".Params.slug" "asc" }}
       {{ partial "channel/card" . }}
     {{ end }}
   </ul>

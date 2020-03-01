@@ -483,10 +483,20 @@ button, select, input, textarea { font-family: inherit; }
 }
 
 .channel-text {
-  flex: 1;
+  position: absolute; 
+  bottom: 0; 
+  width: 100%; 
   padding-left: 1rem;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.8);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
   padding: 0.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.channel-text a:hover {
+  text-decoration: none;
 }
 
 .channel-video .channel-text {

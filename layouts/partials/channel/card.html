@@ -4,15 +4,12 @@
       <div class="channel-imageWrap">
         <img src="{{ if .Params.Image }}{{ .Site.Params.AssetHost }}{{ .Params.Image }}{{ else }}/img/channels/placeholder.png{{ end }}" />
       </div>
-    </div>
-    <div class="channel-text">
-      <div class="channel-title">
-        <a class="channel-link" href="{{ .RelPermalink }}">
-          {{ .Title }}
-        </a>
-      </div>
-      <div class="channel-description">
-        {{ .Description | markdownify }}
+      <div class="channel-text">
+        <div class="channel-title">
+          <a class="channel-link" href="{{ .RelPermalink }}">
+            {{ .Title }}
+          </a>
+        </div>
       </div>
     </div>
   </div>
