@@ -3,19 +3,19 @@
   command = "hugo"
 
 [build.environment]
-  HUGO_VERSION = "0.57.2"
-  NODE_VERSION = "12.1.0"
-  YARN_VERSION = "1.16.0"
+  HUGO_VERSION = "0.65.3"
+  NODE_VERSION = "11.4.0"
+  YARN_VERSION = "1.17.3"
   HUGO_ENV = "staging"
 
 [context.production]
-  command = "hugo -b ${URL}/"
+  command = "./scripts/build -b ${URL}/"
 
 [context.production.environment]
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo -b ${DEPLOY_PRIME_URL}/"
+  command = "./scripts/build -b ${DEPLOY_PRIME_URL}/"
 
 [context.branch-deploy]
-  command = "hugo -b ${DEPLOY_PRIME_URL}/"
+  command = "./scripts/build -b ${DEPLOY_PRIME_URL}/"
