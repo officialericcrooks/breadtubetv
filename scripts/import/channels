@@ -9,9 +9,11 @@ require 'open-uri'
 require 'ostruct'
 require 'psych'
 
-providers = JSON.parse open("http://localhost:1337/providers?_limit=1000000").read
+api_url = ENV.fetch(API_URL, 'http://localhost:1337/')
 
-channels = JSON.parse open("http://localhost:1337/channels?_limit=1000000").read
+providers = JSON.parse open("#{ api_url }providers?_limit=1000000").read
+
+channels = JSON.parse open("#{ api_url }/channels?_limit=1000000").read
 
 class Hash
   def to_ostruct
